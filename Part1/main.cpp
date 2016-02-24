@@ -4,11 +4,11 @@
 //By: Andy Munch
 
 #include <iostream>
-#include "sudoku.h"
+#include "sudoku.h" //Include the class implementation and interface.
 
 int main() {
-	Puzzle<int> numPuzzle;
-	numPuzzle.print();
-	Puzzle<char> charPuzzle;
+	Puzzle<int> numPuzzle; //Create a puzzle that will take in a board of numbers.
+	numPuzzle.print(); //Print out this board to the screen.
+	Puzzle<char> charPuzzle; //Same as above, but with chars.
 	charPuzzle.print(); 
 }
